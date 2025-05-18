@@ -1,4 +1,4 @@
-# Functiongenerator
+# Gerador de função
 Este projeto foi desenvolvido utilizando uma CPU[Figura 1] baseada no microcontrolador ATmega328P, projetada e simulada no ambiente SimulIDE.
 
 Para executar o projeto, é necessário utilizar o SimulIDE, um simulador gratuito voltado para circuitos eletrônicos e sistemas embarcados. Abra o arquivo CPU-Universal-Atmega328p.simu no SimulIDE, clique no microcontrolador com o botão direito do mouse clique em "carregar firmware" e selecione o arquivo .hex
