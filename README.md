@@ -7,10 +7,12 @@ Você pode baixar o simulador gratuitamente no site oficial: https://simulide.co
 O objetivo deste projeto é desenvolver um gerador de funções utilizando o microcontrolador ATmega328, capaz de gerar e exibir três formas de onda distintas: dente de serra, triangular e senoidal. A seleção da forma de onda desejada é realizada por meio de três botões físicos:
 
     BT0: Gera a forma de onda dente de serra[Figura 2];
+        Criada com valores crescentes de forma linear de 0 até aproximadamente 253, seguindo a lógica: 256/24 ≈ 11, então os valores são gerados na forma: 0 ,11, 22, ..., 253
 
     BT1: Gera a forma de onda triangular[Figura 3];
 
     BT2: Gera a forma de onda senoidal[Figura 4].
+        criada por meio da função y = (sin(2πi / N) + 1) * 127.5, sendo N o numero de amostras 
 
 A geração do sinal ocorre digitalmente através de uma tabela de valores em 8 bits (0 a 255), correspondente à amplitude do sinal. Esses valores são enviados para as saídas digitais do microcontrolador, conectadas a um R2R. A rede R2R converte o valor digital de cada ponto da forma de onda em uma tensão analógica proporcional, permitindo que o sinal seja visualizado em um osciloscópio ou analisado em circuitos externos.
 
