@@ -16,12 +16,19 @@ A geração do sinal ocorre digitalmente através de uma tabela de valores em 8 
 
 
 Figura 1
+
 ![Sem título-1](https://github.com/user-attachments/assets/3d961b83-1f1e-4424-b1d4-4e2bc2262703)
+
 Figura 2
+
 ![Sem título-1](https://github.com/user-attachments/assets/a685e367-c78b-4e54-bd46-f1602e2fa7ae)
+
 Figura 3
+
 ![Sem título-1](https://github.com/user-attachments/assets/47388ceb-b033-45af-8c18-2acdeb5c1945)
+
 Figura 4
+
 ![Sem título-1](https://github.com/user-attachments/assets/104abd0d-0522-4c45-bb97-8d97db78bcc8)
 
 
