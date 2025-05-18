@@ -2,6 +2,7 @@
 Este projeto foi desenvolvido utilizando uma CPU[Figura 1] baseada no microcontrolador ATmega328P, projetada e simulada no ambiente SimulIDE.
 
 Para executar o projeto, é necessário utilizar o SimulIDE, um simulador gratuito voltado para circuitos eletrônicos e sistemas embarcados. Abra o arquivo CPU-Universal-Atmega328p.simu no SimulIDE, clique no microcontrolador com o botão direito do mouse clique em "carregar firmware" e selecione o arquivo .hex
+
 Você pode baixar o simulador gratuitamente no site oficial: https://simulide.com/p/downloads/
 
 O objetivo deste projeto é desenvolver um gerador de funções utilizando o microcontrolador ATmega328, produzindo os formas de onda dente de serra, triangular e senoidal. A seleção da forma de onda desejada é realizada por meio de três botões físicos:
