@@ -1,15 +1,27 @@
 # Functiongenerator
-Este projeto foi desenvolvido utilizando uma CPU baseada no microcontrolador ATmega328P, projetada e simulada no ambiente SimulIDE. A proposta é demonstrar o funcionamento de uma arquitetura embarcada com diversos periféricos conectados, permitindo a interação do usuário com o sistema em tempo real.
-Para executar o projeto, é necessário utilizar o SimulIDE, um simulador gratuito voltado para circuitos eletrônicos e sistemas embarcados.
+Este projeto foi desenvolvido utilizando uma CPU[Figura 1] baseada no microcontrolador ATmega328P, projetada e simulada no ambiente SimulIDE.
 
-Você pode baixá-lo gratuitamente no site oficial: https://simulide.com/p/downloads/
+Para executar o projeto, é necessário utilizar o SimulIDE, um simulador gratuito voltado para circuitos eletrônicos e sistemas embarcados. Abra o arquivo CPU-Universal-Atmega328p.simu no SimulIDE, clique no microcontrolador com o botão direito do mouse clique em "carregar firmware" e selecione o arquivo .hex
+Você pode baixar o simulador gratuitamente no site oficial: https://simulide.com/p/downloads/
 
+O objetivo deste projeto é desenvolver um gerador de funções utilizando o microcontrolador ATmega328, capaz de gerar e exibir três formas de onda distintas: dente de serra, triangular e senoidal. A seleção da forma de onda desejada é realizada por meio de três botões físicos:
+
+    BT0: Gera a forma de onda dente de serra[Figura 2];
+
+    BT1: Gera a forma de onda triangular[Figura 3];
+
+    BT2: Gera a forma de onda senoidal[Figura 4].
+
+A geração do sinal ocorre digitalmente através de uma tabela de valores em 8 bits (0 a 255), correspondente à amplitude do sinal. Esses valores são enviados para as saídas digitais do microcontrolador, conectadas a um R2R. A rede R2R converte o valor digital de cada ponto da forma de onda em uma tensão analógica proporcional, permitindo que o sinal seja visualizado em um osciloscópio ou analisado em circuitos externos.
+
+
+Figura 1
 ![Sem título-1](https://github.com/user-attachments/assets/3d961b83-1f1e-4424-b1d4-4e2bc2262703)
-
+Figura 2
 ![Sem título-1](https://github.com/user-attachments/assets/a685e367-c78b-4e54-bd46-f1602e2fa7ae)
-
+Figura 3
 ![Sem título-1](https://github.com/user-attachments/assets/47388ceb-b033-45af-8c18-2acdeb5c1945)
-
+Figura 4
 ![Sem título-1](https://github.com/user-attachments/assets/104abd0d-0522-4c45-bb97-8d97db78bcc8)
 
 
